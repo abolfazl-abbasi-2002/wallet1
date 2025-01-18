@@ -1,0 +1,39 @@
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 43.75%;
+  }
+  .app{
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:.02fr .7fr .1fr .01fr .01fr;
+  }
+  .balance{
+    grid-column: 1/-1;
+  }
+  .movements{
+    grid-column: 1/-1;
+    grid-row:2/3;
+  }
+  .summary{
+    grid-column: 1/-1;
+  }
+  .logout-timer{
+grid-row: 6/-1;
+    grid-column: 1/-1;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 37%;
+  }
+}
