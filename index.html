@@ -25,6 +25,7 @@
           type="text"
           placeholder="نام کاربری"
           class="login__input login__input--user"
+          value="aa"
         />
         <!-- In practice, use type="password" -->
         <input
@@ -32,6 +33,7 @@
           placeholder="رمز"
           maxlength="4"
           class="login__input login__input--pin"
+          value="1111"
         />
         <button class="login__btn">&rarr;</button>
       </form>
@@ -42,9 +44,7 @@
       <div class="balance">
         <div>
           <p class="balance__label">موجودی فعلی</p>
-          <p class="balance__date">
-            <span class="date">05/03/2037</span> از تاریخ
-          </p>
+          <p class="balance__date">  از تاریخ  <span class="date"></span> </p>
         </div>
         <p class="balance__value">تومان 0000</p>
       </div>
@@ -103,13 +103,9 @@
 
       <!-- LOGOUT TIMER -->
       <p class="logout-timer">
-        شما در ساعت <span class="timer">05:00</span> از سیستم خارج خواهید شد
+        شما در ساعت <span class="timer"></span> از سیستم خارج خواهید شد
       </p>
     </main>
-
-    <!-- <footer>
-      &copy; by Jonas Schmedtmann. Don't claim as your own :)
-    </footer> -->
 
     <script src="script.js"></script>
   </body>
